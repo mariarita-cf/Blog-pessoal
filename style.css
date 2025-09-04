@@ -12,3 +12,10 @@
       border: solid black
     }
 
+    button {
+         border-radius: 80px;
+         color: white;
+         background-color: black;
+         width: 100px;
+        }
+
