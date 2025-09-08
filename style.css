@@ -1,10 +1,14 @@
 
     body {
       border-color: bisque;
-      background-color: azure;
+      background: azure;
       color: black;
       font-family: Arial, Helvetica, sans-serif;
+      text-align: center;
+      font-weight: 400;
+      font-style: normal;
     }
+
 
     img {
       width: 50px;
@@ -23,15 +27,39 @@
   form { 
     text-align: center;
     background-image: url(./assets/fundo1.png);
-    background-size: cover;
+    background-size: 100% 100%;
     background-repeat: no-repeat;
-    }
+}
 
 #box_form {
   border: solid black;
-
-
-
 }
+
+header { 
+    border: solid;
+    margin: 8px;
+    padding: 8px;
+    align-items: center;
+}
+
+
+main {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    border: solid black;
+    margin: 8px;
+}
+
+footer{ 
+      text-align: center;
+      border: solid black;
+      margin: 8px;
+    }
+
+
+
+
+
 
 
